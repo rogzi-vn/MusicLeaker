@@ -66,8 +66,37 @@
 
 - Bước 6: Click chuột phải chọn open with visual code nếu bạn chưa cài thì tiến hành cài tại https://code.visualstudio.com
 
+![Test Image 5](resource/vscode.png)
 
-![Test Image 5](resource/vscode.PNG)
+- Bước 7: Vào Giao diện vs code bạn mở thứ tự dist -> src -> view - > authentication.vue
+
+![Test Image 6](resource/views.PNG)
+
+- Bước 8: Bạn nhấn tổ hợp phím Ctrl + ( ~ )  để mở giao diện Terminal 
+
+- Bước 9: Bạn gõ npm i để cài đặt nodeJS vào project 
+
+![Test Image 4](resource/npm%20i.PNG)
+
+- Bước 10: Sau khi cài đặt xong bạn gõ tiếp npm run serve để chạy trang web 
+
+![Test Image 4](resource/npmrunserve.PNG)
+
+- Bước 11: Terminal sẽ xuất hiện đường dẫn localhost bạn nhấn Ctrl + Click chuột để truy cập 
+
+![Test Image 4](resource/localhost.PNG)
+
+- Bước 12: Trang web sẽ hiển thị ngay sau đó
+
+- Bước 13: Nếu bạn có thay đổi gì, hoặc muốn update project chỉ cần gõ npm run build để tiến hành build lại 
+
+![Test Image 4](resource/npmrunbuild.PNG)
+
+
+
+
+
+
 
 
 
