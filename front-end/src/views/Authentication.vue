@@ -37,7 +37,7 @@
                   <base-input
                     alternative
                     class="mb-3"
-                    placeholder="Email"
+                    placeholder="Tên tài khoản"
                     v-model="username"
                     addon-left-icon="fa fa-user"
                   ></base-input>
@@ -605,17 +605,17 @@ export default {
               this.$session.start();
               this.$session.set("USER_INFO", userObj);
               this.$router.push("/profile");
-            } else if (res.data == "-1") {
+            } else {
               this.$Message["error"]({
                 background: true,
-                content: "Đăng nhập thất bại, vui lòng thử lại"
+                content: "Đăng nhập thất bại, vui lòng thử lại " + r.data
               });
             }
           })
           .catch(e => {
             this.$Message["error"]({
               background: true,
-              content: "Đăng nhập thất bại, vui lòng thử lại"
+              content: "Đăng nhập thất bại, vui lòng thử lại " + e.message
             });
           })
           .finally(() => {

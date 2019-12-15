@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.8d19ca81f57ba70dfefbbaa465e1c499.js"
+  "/precache-manifest.c794cf11540bf235b1872e20b3f61a71.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "musicleaker"});
