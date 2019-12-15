@@ -2,7 +2,7 @@
   <div>
     <Loader v-if="isLoadingShow"></Loader>
     <section class="section section-shaped section-lg my-0">
-      <div class="shape shape-style-1 bg-gradient-default custom-height">
+      <div class="shape shape-style-1 bg-gradient-purple  custom-height">
         <span></span>
         <span></span>
         <span></span>
@@ -25,9 +25,7 @@
               class="border-0"
             >
               <template>
-                <div class="text-muted text-center mb-3">
-                  ĐĂNG NHẬP
-                </div>
+                <div class="text-muted text-center mb-3 font-weight-bold">ĐĂNG NHẬP</div>
               </template>
               <template>
                 <div class="text-center text-muted mb-4">
@@ -40,39 +38,28 @@
                     placeholder="Email"
                     v-model="username"
                     addon-left-icon="ni ni-email-83"
-                  >
-                  </base-input>
+                  ></base-input>
                   <base-input
                     alternative
                     type="password"
                     v-model="password"
                     placeholder="Mật khẩu"
                     addon-left-icon="ni ni-lock-circle-open"
-                  >
-                  </base-input>
+                  ></base-input>
                   <div class="text-center">
-                    <base-button
-                      type="primary"
-                      class="my-4"
-                      v-on:click="login()"
-                      >Đăng nhập</base-button
-                    >
+                    <base-button type="primary" class="my-4" v-on:click="login()">Đăng nhập</base-button>
                   </div>
                 </form>
               </template>
             </card>
             <div class="row mt-3">
               <div class="col-6">
-                <a href="#" class="text-light">
+                <a href="#" class="text-white">
                   <small>Quên mật khẩu?</small>
                 </a>
               </div>
               <div class="col-6 text-right">
-                <a
-                  v-on:click="isLogin = false"
-                  class="text-light"
-                  style="cursor: pointer"
-                >
+                <a v-on:click="isLogin = false" class="text-white" style="cursor: pointer">
                   <small>Tạo tài khoản mới</small>
                 </a>
               </div>
@@ -94,9 +81,7 @@
               class="border-0"
             >
               <template>
-                <div class="text-muted text-center mb-3">
-                  ĐĂNG KÝ
-                </div>
+                <div class="text-muted text-center mb-3">ĐĂNG KÝ</div>
               </template>
               <template>
                 <div class="text-center text-muted mb-4">
@@ -108,33 +93,27 @@
                     class="mb-3"
                     placeholder="Họ và tên"
                     addon-left-icon="ni ni-hat-3"
-                  >
-                  </base-input>
+                  ></base-input>
                   <base-input
                     alternative
                     class="mb-3"
                     placeholder="Email"
                     addon-left-icon="ni ni-email-83"
-                  >
-                  </base-input>
+                  ></base-input>
                   <base-input
                     alternative
                     type="password"
                     placeholder="Mật khẩu"
                     addon-left-icon="ni ni-lock-circle-open"
-                  >
-                  </base-input>
+                  ></base-input>
                   <base-input
                     alternative
                     type="password"
                     placeholder="Nhập lại mật khẩu"
                     addon-left-icon="ni ni-lock-circle-open"
-                  >
-                  </base-input>
+                  ></base-input>
                   <div class="text-center">
-                    <base-button type="primary" class="my-4"
-                      >Tạo tài khoản</base-button
-                    >
+                    <base-button type="primary" class="my-4">Tạo tài khoản</base-button>
                   </div>
                 </form>
               </template>
@@ -142,7 +121,7 @@
             <div class="row mt-3">
               <div class="col-6"></div>
               <div class="col-6 text-right" style="cursor: pointer">
-                <a v-on:click="isLogin = true" class="text-light">
+                <a v-on:click="isLogin = true" class="text-white">
                   <small>Đã có tài khoản?</small>
                 </a>
               </div>
@@ -157,71 +136,53 @@
         <div class="row justify-content-center">
           <div class="col-lg-12">
             <div class="row row-grid">
-              <div class="col-lg-4">
+              <div class="col-lg-4" align="center">
                 <card class="border-0" hover shadow body-classes="py-5">
-                  <icon
-                    name="ni ni-check-bold"
-                    type="primary"
-                    rounded
-                    class="mb-4"
-                  >
-                  </icon>
-                  <h6 class="text-primary text-uppercase">Download Argon</h6>
-                  <p class="description mt-3">
-                    Argon is a great free UI package based on Bootstrap 4 that
-                    includes the most important components and features.
-                  </p>
-                  <div>
-                    <badge type="primary" rounded>design</badge>
-                    <badge type="primary" rounded>system</badge>
-                    <badge type="primary" rounded>creative</badge>
+                  <icon name="fa fa-bolt" type="primary" rounded class="mb-4"></icon>
+                  <h6
+                    class="text-primary text-uppercase text-center font-weight-bold"
+                  >KẾT NỐI NHANH CHÓNG</h6>
+                  <p
+                    class="description mt-3 mb-2 text-center"
+                  >Tìm kiếm âm nhạc chưa bao giờ nhanh chóng và dễ dàng như vậy !</p>
+                  <div align="center">
+                    <badge type="primary" rounded>Nhanh chóng</badge>
+                    <badge type="primary" rounded>Thuận lợi</badge>
+                    <badge type="primary" rounded>Dễ dàng</badge>
                   </div>
-                  <base-button tag="a" href="#" type="primary" class="mt-4">
-                    Learn more
-                  </base-button>
                 </card>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4" align="center">
                 <card class="border-0" hover shadow body-classes="py-5">
-                  <icon
-                    name="ni ni-istanbul"
-                    type="success"
-                    rounded
-                    class="mb-4"
-                  >
-                  </icon>
-                  <h6 class="text-success text-uppercase">Build Something</h6>
-                  <p class="description mt-3">
-                    Argon is a great free UI package based on Bootstrap 4 that
-                    includes the most important components and features.
-                  </p>
-                  <div>
-                    <badge type="success" rounded>business</badge>
-                    <badge type="success" rounded>vision</badge>
-                    <badge type="success" rounded>success</badge>
+                  <icon name="fa fa-money" type="success" rounded class="mb-4"></icon>
+                  <h6
+                    class="text-success text-uppercase text-center font-weight-bold"
+                  >HOÀN TOÀN MIỄN PHÍ</h6>
+                  <p
+                    class="description mt-3 mb-2 text-center"
+                  >Không lấy của bạn bất kỳ khoản phí nào khi sử dụng</p>
+                  <div align="center">
+                    <badge type="success" rounded>Miễn phí</badge>
+                    <badge type="success" rounded>An toàn</badge>
+                    <badge type="success" rounded>Hiệu quả</badge>
                   </div>
-                  <base-button tag="a" href="#" type="success" class="mt-4">
-                    Learn more
-                  </base-button>
                 </card>
               </div>
-              <div class="col-lg-4">
+              <!-- PICTURE 1 ====================================================================== -->
+              <div class="col-lg-4" align="center">
                 <card class="border-0" hover shadow body-classes="py-5">
-                  <icon name="ni ni-planet" type="warning" rounded class="mb-4">
-                  </icon>
-                  <h6 class="text-warning text-uppercase">Prepare Launch</h6>
-                  <p class="description mt-3">
-                    Argon is a great free UI package based on Bootstrap 4 that
-                    includes the most important components and features.
-                  </p>
-                  <div>
-                    <badge type="warning" rounded>marketing</badge>
-                    <badge type="warning" rounded>product</badge>
-                    <badge type="warning" rounded>launch</badge>
+                  <icon name="fa fa-music" type="warning" rounded class="mb-4"></icon>
+                  <h6
+                    class="text-warning text-uppercase text-center font-weight-bold"
+                  >TRẢI NGHIỆM TUYỆT VỜI</h6>
+                  <p
+                    class="description mt-3 mb-2 text-center"
+                  >Thế giới âm nhạc vô cùng rộng lớn thỏa sức trải nghiệm</p>
+                  <div align="center">
+                    <badge type="warning" rounded>Rộng lớn</badge>
+                    <badge type="warning" rounded>Tự do</badge>
+                    <badge type="warning" rounded>Thỏa thích</badge>
                   </div>
-                  <base-button tag="a" href="#" type="warning" class="mt-4">
-                    Learn more
-                  </base-button>
                 </card>
               </div>
             </div>
@@ -229,142 +190,70 @@
         </div>
       </div>
     </section>
-    <section class="section section-lg">
+
+    <!--picture 1-->
+    <section class="section section section-shaped my-0 overflow-hidden">
+         <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-md-2">
-            <img src="img/theme/promo-1.png" class="img-fluid floating" />
+            <img
+              src="img/theme/michael.jpg"
+              class="img-fluid floating rounded"
+            />
           </div>
           <div class="col-md-6 order-md-1">
             <div class="pr-md-5">
-              <icon
-                name="ni ni-settings-gear-65"
-                class="mb-5"
-                size="lg"
-                type="success"
-                shadow
-                rounded
-              ></icon>
-              <h3>Awesome features</h3>
-              <p>
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go.
-              </p>
-              <ul class="list-unstyled mt-5">
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <badge
-                      type="success"
-                      circle
-                      class="mr-3"
-                      icon="ni ni-settings-gear-65"
-                    ></badge>
-                    <h6 class="mb-0">Carefully crafted components</h6>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <badge
-                      type="success"
-                      circle
-                      class="mr-3"
-                      icon="ni ni-html5"
-                    ></badge>
-                    <h6 class="mb-0">Amazing page examples</h6>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <badge
-                      type="success"
-                      circle
-                      class="mr-3"
-                      icon="ni ni-satisfied"
-                    ></badge>
-                    <h6 class="mb-0">Super friendly support team</h6>
-                  </div>
-                </li>
-              </ul>
+            
+              <h3 class="display-3 text-white">Tận hưởng thế giới âm nhạc</h3>
+              <p  class="text-white lead">Có thể nói âm nhạc là linh hồn của cuộc sống, là sức mạnh tinh thần làm xoa diệu mọi nỗi đau tâm hồn và nâng đỡ con người đứng dậy. ...</p>
+              
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- END PICTURE 1 ==================-->
+
+    <!-- PICTURE 2 ===================================--->
     <section class="section bg-secondary">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6">
-            <div class="card bg-default shadow border-0">
+           
+            
               <img
-                v-lazy="'img/theme/img-1-1200x1000.jpg'"
-                class="card-img-top"
-              />
-              <blockquote class="card-blockquote">
-                <svg
-                  preserveAspectRatio="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 583 95"
-                  class="svg-bg"
-                >
-                  <polygon
-                    points="0,52 583,95 0,95"
-                    class="fill-default"
-                  ></polygon>
-                  <polygon
-                    points="0,42 583,95 683,0 0,95"
-                    opacity=".2"
-                    class="fill-default"
-                  ></polygon>
-                </svg>
-                <h4 class="display-3 font-weight-bold text-white">
-                  Design System
-                </h4>
-                <p class="lead text-italic text-white">
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens.
-                </p>
-              </blockquote>
-            </div>
+              src="img/theme/rock.jpg"
+              class="img-fluid floating-sm rounded"
+            />
+          
           </div>
           <div class="col-md-6">
             <div class="pl-md-5">
-              <icon
-                name="ni ni-settings"
-                class="mb-5"
-                size="lg"
-                type="warning"
-                shadow
-                rounded
-              ></icon>
+             
 
-              <h3>Our customers</h3>
-              <p class="lead">
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
-              </p>
-              <p>
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go.
-              </p>
-              <p>
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go.
-              </p>
-              <a href="#" class="font-weight-bold text-warning mt-5"
-                >A beautiful UI Kit for impactful websites</a
-              >
+              <h3 >Thế giới âm nhạc phong phú</h3>
+              <p
+                class="lead"
+              >Tình yêu cho phép những ca khúc ra đời. Nỗi đau và niềm hân hoan làm thành bào thai sinh nở ra âm nhạc. Âm nhạc như thế là tình yêu, là trong bản thân nó hàm chứa một cõi nhân sinh bề bộn những đau khổ và hoan lạc.</p>
+             
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- END PICTURE 2 ================================================-->
+
+    <!-- PICTURE 3 ======================================================-->
     <section class="section section section-shaped my-0 overflow-hidden">
-      <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+      <div class="shape shape-style-1 bg-gradient-danger shape-skew">
         <span></span>
         <span></span>
         <span></span>
@@ -376,87 +265,35 @@
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-lg-2 ml-lg-auto">
             <div class="position-relative pl-md-5">
-              <img src="img/ill/ill-2.svg" class="img-center img-fluid" />
+              <img src="img/theme/close-up-of-a-person-writing-musical-notes-on-a-sheet-of-paper.jpg" class="img-center img-fluid  rounded" />
             </div>
           </div>
           <div class="col-lg-6 order-lg-1">
             <div class="d-flex px-3">
               <div>
-                <icon
-                  name="ni ni-building"
-                  size="lg"
-                  class="bg-gradient-white"
-                  color="primary"
-                  shadow
-                  rounded
-                ></icon>
+               
               </div>
               <div class="pl-4">
-                <h4 class="display-3 text-white">Modern Interface</h4>
-                <p class="text-white">
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens.
-                </p>
+                <h3 class="display-5 text-white">Cập nhật những sáng tác mới nhất</h3>
+                <p
+                  class="text-white lead" 
+                >Âm nhạc chẳng là gì khác ngoài những âm thanh hoang dã được văn minh hoá vào thời gian và giai điệu.</p>
               </div>
             </div>
-            <card shadow class="shadow-lg--hover mt-5">
-              <div class="d-flex px-3">
-                <div>
-                  <icon
-                    name="ni ni-satisfied"
-                    gradient="success"
-                    color="white"
-                    shadow
-                    rounded
-                  ></icon>
-                </div>
-                <div class="pl-4">
-                  <h5 class="title text-success">Awesome Support</h5>
-                  <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
-                  </p>
-                  <a href="#" class="text-success">Learn more</a>
-                </div>
-              </div>
-            </card>
-            <card shadow class="shadow-lg--hover mt-5">
-              <div class="d-flex px-3">
-                <div>
-                  <icon
-                    name="ni ni-active-40"
-                    gradient="warning"
-                    color="white"
-                    shadow
-                    rounded
-                  ></icon>
-                </div>
-                <div class="pl-4">
-                  <h5 class="title text-warning">Modular Components</h5>
-                  <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
-                  </p>
-                  <a href="#" class="text-warning">Learn more</a>
-                </div>
-              </div>
-            </card>
+            
           </div>
         </div>
       </div>
     </section>
+    <!-- END PICTURE 3 -->
+
     <section class="section section-lg">
       <div class="container">
         <div class="row justify-content-center text-center mb-lg">
           <div class="col-lg-8">
-            <h2 class="display-3">The amazing Team</h2>
+            <h2 class="display-3">Thành viên sáng lập</h2>
             <p class="lead text-muted">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record
-              maximum.
+              Chúng tôi là ai ?
             </p>
           </div>
         </div>
@@ -464,7 +301,7 @@
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
             <div class="px-4">
               <img
-                v-lazy="'img/theme/team-1-800x800.jpg'"
+                v-lazy="'img/theme/57045397_2396567773906412_9002583388963471360_n.jpg'"
                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                 style="width: 200px;"
               />
@@ -484,7 +321,7 @@
                   ></base-button>
                   <base-button
                     tag="a"
-                    href="#"
+                    href="https://www.facebook.com/tx.trongnghia98"
                     type="warning"
                     icon="fa fa-facebook"
                     rounded
@@ -492,9 +329,9 @@
                   ></base-button>
                   <base-button
                     tag="a"
-                    href="#"
+                    href="https://github.com/futureskyprojects"
                     type="warning"
-                    icon="fa fa-dribbble"
+                    icon="fa fa-github"
                     rounded
                     icon-only
                   ></base-button>
@@ -505,7 +342,7 @@
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
             <div class="px-4">
               <img
-                v-lazy="'img/theme/team-2-800x800.jpg'"
+                v-lazy="'img/theme/77268039_1735391823264311_8307585593739575296_n.jpg'"
                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                 style="width: 200px;"
               />
@@ -517,7 +354,7 @@
                 <div class="mt-3">
                   <base-button
                     tag="a"
-                    href="#"
+                    href="https://twitter.com/PhuHoan73477827"
                     type="primary"
                     icon="fa fa-twitter"
                     rounded
@@ -525,7 +362,7 @@
                   ></base-button>
                   <base-button
                     tag="a"
-                    href="#"
+                    href="https://www.facebook.com/mrcariot"
                     type="primary"
                     icon="fa fa-facebook"
                     rounded
@@ -533,9 +370,9 @@
                   ></base-button>
                   <base-button
                     tag="a"
-                    href="#"
+                    href="https://github.com/mchoang98"
                     type="primary"
-                    icon="fa fa-dribbble"
+                    icon="fa fa-github"
                     rounded
                     icon-only
                   ></base-button>
@@ -543,122 +380,14 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="px-4">
-              <img
-                v-lazy="'img/theme/team-3-800x800.jpg'"
-                class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                style="width: 200px;"
-              />
-              <div class="pt-4 text-center">
-                <h5 class="title">
-                  <span class="d-block mb-1">Alexander Smith</span>
-                  <small class="h6 text-muted">UI/UX Designer</small>
-                </h5>
-                <div class="mt-3">
-                  <base-button
-                    tag="a"
-                    href="#"
-                    type="info"
-                    icon="fa fa-twitter"
-                    rounded
-                    icon-only
-                  ></base-button>
-                  <base-button
-                    tag="a"
-                    href="#"
-                    type="info"
-                    icon="fa fa-facebook"
-                    rounded
-                    icon-only
-                  ></base-button>
-                  <base-button
-                    tag="a"
-                    href="#"
-                    type="info"
-                    icon="fa fa-dribbble"
-                    rounded
-                    icon-only
-                  ></base-button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="px-4">
-              <img
-                v-lazy="'img/theme/team-4-800x800.jpg'"
-                class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                style="width: 200px;"
-              />
-              <div class="pt-4 text-center">
-                <h5 class="title">
-                  <span class="d-block mb-1">John Doe</span>
-                  <small class="h6 text-muted">Founder and CEO</small>
-                </h5>
-                <div class="mt-3">
-                  <base-button
-                    tag="a"
-                    href="#"
-                    type="success"
-                    icon="fa fa-twitter"
-                    rounded
-                    icon-only
-                  ></base-button>
-                  <base-button
-                    tag="a"
-                    href="#"
-                    type="success"
-                    icon="fa fa-facebook"
-                    rounded
-                    icon-only
-                  ></base-button>
-                  <base-button
-                    tag="a"
-                    href="#"
-                    type="success"
-                    icon="fa fa-dribbble"
-                    rounded
-                    icon-only
-                  ></base-button>
-                </div>
-              </div>
-            </div>
-          </div> -->
+      
+
         </div>
       </div>
     </section>
-    <section class="section section-lg pt-0">
-      <div class="container">
-        <card gradient="warning" no-body shadow-size="lg" class="border-0">
-          <div class="p-5">
-            <div class="row align-items-center">
-              <div class="col-lg-8">
-                <h3 class="text-white">
-                  We made website building easier for you.
-                </h3>
-                <p class="lead text-white mt-3">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers. I understand
-                  culture.
-                </p>
-              </div>
-              <div class="col-lg-3 ml-lg-auto">
-                <base-button
-                  tag="a"
-                  href="https://www.creative-tim.com/product/vue-argon-design-system"
-                  type="white"
-                  block
-                  size="lg"
-                >
-                  Download Vue
-                </base-button>
-              </div>
-            </div>
-          </div>
-        </card>
-      </div>
-    </section>
+
+
+  
     <section class="section section-shaped my-0 overflow-hidden">
       <div class="shape shape-style-3 bg-gradient-default shape-skew">
         <span></span>
@@ -669,61 +398,15 @@
       <div class="container pt-lg pb-300">
         <div class="row text-center justify-content-center">
           <div class="col-lg-10">
-            <h2 class="display-3 text-white">Build something</h2>
+            <h2 class="display-3 text-white">Góp ý phát triển</h2>
             <p class="lead text-white">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice.
+             Website phát triển trên tinh thần phi lợi nhuận nhằm đem lại hiệu quả cộng đồng,
+             tuy vậy chúng tôi vẫn mong muốn có được những ý kiến đóng góp nhằm phát triển website
+             vì vậy hãy để lại ý kiến đóng góp của bạn ngay dưới form email này !
             </p>
           </div>
         </div>
-        <div class="row row-grid mt-5">
-          <div class="col-lg-4">
-            <icon
-              name="ni ni-settings"
-              size="lg"
-              gradient="white"
-              shadow
-              round
-              color="primary"
-            ></icon>
-            <h5 class="text-white mt-3">Building tools</h5>
-            <p class="text-white mt-3">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <icon
-              name="ni ni-ruler-pencil"
-              size="lg"
-              gradient="white"
-              shadow
-              round
-              color="primary"
-            ></icon>
-            <h5 class="text-white mt-3">Grow your market</h5>
-            <p class="text-white mt-3">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <icon
-              name="ni ni-atom"
-              size="lg"
-              gradient="white"
-              shadow
-              round
-              color="primary"
-            ></icon>
-            <h5 class="text-white mt-3">Launch time</h5>
-            <p class="text-white mt-3">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
+      
       </div>
     </section>
     <section class="section section-lg pt-lg-0 section-contact-us">
@@ -731,33 +414,25 @@
         <div class="row justify-content-center mt--300">
           <div class="col-lg-8">
             <card gradient="secondary" shadow body-classes="p-lg-5">
-              <h4 class="mb-1">Want to work with us?</h4>
-              <p class="mt-0">Your project is very important to us.</p>
+              <h4 class="mb-1">Ý kiến của bạn</h4>
+              <p class="mt-0">Gửi chúng tôi ý kiến cần đóng góp !</p>
               <base-input
                 class="mt-5"
                 alternative
-                placeholder="Your name"
+                placeholder="Tên bạn"
                 addon-left-icon="ni ni-user-run"
-              >
-              </base-input>
-              <base-input
-                alternative
-                placeholder="Email address"
-                addon-left-icon="ni ni-email-83"
-              >
-              </base-input>
+              ></base-input>
+              <base-input alternative placeholder="Địa chỉ Email" addon-left-icon="ni ni-email-83"></base-input>
               <base-input class="mb-4">
                 <textarea
                   class="form-control form-control-alternative"
                   name="name"
                   rows="4"
                   cols="80"
-                  placeholder="Type a message..."
+                  placeholder="Nhập tin nhắn..."
                 ></textarea>
               </base-input>
-              <base-button type="default" round block size="lg">
-                Send Message
-              </base-button>
+              <base-button type="default" round block size="lg">Gửi tin nhắn</base-button>
             </card>
           </div>
         </div>
@@ -800,7 +475,7 @@ export default {
               });
               this.$session.start();
               this.$session.set("USER_INFO", userObj);
-              this.$router.push('/profile')
+              this.$router.push("/profile");
             } else if (res.data == "-1") {
               this.$Message["error"]({
                 background: true,
