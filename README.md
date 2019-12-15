@@ -93,30 +93,29 @@
 ![Test Image 4](resource/npmrunbuild.PNG)
 
 
-
-
-
-
-
-
-
-
-
-
 <h2>📑 Nội dung của bài toán </h2>
 
 - Chức năng đã làm được:
 <p>- Thiết kế giao diện: Trang chủ, Đăng ký, Đăng nhập, Download</p>
 
+![Test Image 4](resource/index.png)
+
+![Test Image 4](resource/index2.png)
+
 
 <p>- Thao tác</p>
+
 <ul>
     <li> Nhập tên bài hát hiển thị kết quả </li>
     <li> Nhập tên ca sĩ hiển thị kết quả </li>
     <li> Nhấn nút nghe thử tiến hành phát nhạc</li>
     <li> Nhấn nút download tải nhạc về máy</li>
- 
 </ul>
+
+![Test Image 4](resource/search.PNG)
+![Test Image 4](resource/download.PNG)
+
+
 
 
 <h2>💻 Hướng phát triển cho bài toán</h2>
