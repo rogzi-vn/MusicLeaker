@@ -13,6 +13,8 @@
 [![DB](https://img.shields.io/badge/DB-MySQL-information
 )](https://www.mysql.com/)
 
+[![visit](https://img.shields.io/badge/VisitWeb-ClickHere!-information
+)](https://musicleaker.unaux.com)
 
 ♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬
 <h2> ✈ Công dụng, ứng dụng  </h2>
@@ -47,6 +49,7 @@
 <h2>⚙ Các bước cài đặt</h2>
 
 
+
 <h2>📑 Nội dung của bài toán </h2>
 
 - Chức năng đã làm được:
@@ -57,7 +60,9 @@
 <ul>
     <li> Nhập tên bài hát hiển thị kết quả </li>
     <li> Nhập tên ca sĩ hiển thị kết quả </li>
+    <li> Nhấn nút nghe thử tiến hành phát nhạc</li>
     <li> Nhấn nút download tải nhạc về máy</li>
+ 
 </ul>
 
 
