@@ -48,6 +48,15 @@
 
 <h2>⚙ Các bước cài đặt</h2>
 
+- Bước 1: Đầu tiên bạn copy link Clone Responsitory này 
+
+![Test Image 3](resource/Capture.PNG)
+
+- Bước 2: Clone vào một folder bất kỳ trong máy tính
+
+![Test Image 3](resource/git-clone.PNG)
+
+
 
 
 <h2>📑 Nội dung của bài toán </h2>
