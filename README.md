@@ -60,7 +60,6 @@
     <li> Nhấn nút download tải nhạc về máy</li>
 </ul>
 
-[![vAyYAf.png](https://c.imge.to/2019/12/12/vAyYAf.png)](https://imge.to/i/vAyYAf)
 
 <h2>💻 Hướng phát triển cho bài toán</h2>
 
