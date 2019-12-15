@@ -11,7 +11,7 @@ if (
 
     // Tạo Mới Đối Tượng
     $DB = new DabatabseHandler();
-    $res = $DB->get_row('select id, username, fullname, email, search_count, download_count from user_account where username = "' . $username . '" and password = "' . $password . '"');
+    $res = $DB->get_row('select id, username, fullname, email, search_count from user_account where username = "' . $username . '" and password = "' . $password . '"');
     if ($res != false)
         echo json_encode($res);
     else

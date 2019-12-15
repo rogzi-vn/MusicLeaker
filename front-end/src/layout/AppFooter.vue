@@ -18,7 +18,7 @@
           <ul class="nav nav-footer justify-content-end">
             <li class="nav-item">
               <a
-                href="https://www.creative-tim.com/presentation"
+                href="https://fb.com/tx.trongnghia98"
                 class="nav-link"
                 target="_blank"
                 rel="noopener"

@@ -8,9 +8,9 @@
       <div class="row" slot="content-header" slot-scope="{ closeMenu }">
         <div class="col-6 collapse-brand">
           <a
-            href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+            href=""
           >
-            <img src="img/brand/blue.png" />
+            <img src="img/brand/white.png" />
           </a>
         </div>
         <div class="col-6 collapse-close">
@@ -26,7 +26,6 @@
           data-toggle="dropdown"
           role="button"
         >
-          <i class="ni ni-ui-04 d-lg-none"></i>
           <span class="nav-link-inner--text">Tìm và lưu trữ nhạc của bạn</span>
         </div>
       </ul>

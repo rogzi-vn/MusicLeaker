@@ -2,10 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
-import Components from "./views/Components.vue";
-import Landing from "./views/Landing.vue";
 import Authentication from "./views/Authentication.vue";
-import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
 import VueSession from 'vue-session'
 Vue.use(VueSession)
@@ -45,15 +42,6 @@ export default new Router({
       beforeEnter: ifAuthenticated
     },
     {
-      path: "/landing",
-      name: "landing",
-      components: {
-        header: AppHeader,
-        default: Landing,
-        footer: AppFooter
-      }
-    },
-    {
       path: "/authentication",
       name: "authentication",
       components: {
@@ -62,15 +50,6 @@ export default new Router({
         footer: AppFooter
       },
       beforeEnter: ifNotAuthenticated
-    },
-    {
-      path: "/register",
-      name: "register",
-      components: {
-        header: AppHeader,
-        default: Register,
-        footer: AppFooter
-      }
     },
     {
       path: "/profile",

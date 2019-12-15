@@ -11,6 +11,24 @@ export async function getUser(username, password) {
     })
 }
 
+export async function addUser(data) {
+    return await JAxios({
+        url: '/add_user.php',
+        method: 'POST',
+        data: data
+    })
+}
+
+export async function checkUsername(username) {
+    return await JAxios({
+        url: '/check_username.php',
+        method: 'GET',
+        params: {
+            username: username
+        }
+    });
+}
+
 export async function getAvatar(email) {
     return await JAxios({
         url: '/get_user_avatar.php',

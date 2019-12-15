@@ -16,6 +16,7 @@
             class="custom-input"
             alternative
             type="text"
+            v-on:keyup.enter="searchSong()"
             v-model="searchObj.song"
             placeholder="Nhập tên bài hát..."
           />
@@ -141,7 +142,7 @@
         >
           <template slot="header">
             <h5 class="modal-title">
-              Kết quả tìm kiếm cho bài hát "{{ searchObj.song }}"
+              Một số kết quả tìm kiếm cho từ khóa "{{ searchObj.song }}"
             </h5>
           </template>
           <div>
@@ -312,20 +313,34 @@ export default {
       }
     },
     playSong(data) {
-      this.stopSong();
-      this.playAudio = {
-        audio: new Audio(data.mp3),
-        mp3: data.mp3
-      };
-      this.playAudio.audio.play();
+      try {
+        this.stopSong();
+        this.playAudio = {
+          audio: new Audio(data.mp3),
+          mp3: data.mp3
+        };
+        this.playAudio.audio.play();
+      } catch (e) {
+        this.$Message["error"]({
+          background: true,
+          content: "Xin lỗi! Không thể phát bài hát này."
+        });
+      }
     },
     playSearchSong(data) {
-      this.stopSong();
-      this.searchObj.playAudio = {
-        audio: new Audio(data.mp3),
-        mp3: data.mp3
-      };
-      this.searchObj.playAudio.audio.play();
+      try {
+        this.stopSong();
+        this.searchObj.playAudio = {
+          audio: new Audio(data.mp3),
+          mp3: data.mp3
+        };
+        this.searchObj.playAudio.audio.play();
+      } catch (e) {
+        this.$Message["error"]({
+          background: true,
+          content: "Xin lỗi! Không thể phát bài hát này."
+        });
+      }
     },
     searchSong() {
       if (this.searchObj.song.length <= 0) {

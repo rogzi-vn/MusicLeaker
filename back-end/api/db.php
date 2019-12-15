@@ -14,7 +14,10 @@ class DabatabseHandler
         // Nếu chưa kết nối thì thực hiện kết nối
         if (!$this->__conn) {
             // Kết nối
-            // $this->__conn = mysqli_connect('sql301.unaux.com', 'unaux_24923999', '', 'unaux_24923999_musicleaker_db') or die('Lỗi kết nối');
+            // Dành cho kết nối khi hoàn thành sản phẩm
+            // $this->__conn = mysqli_connect('sql301.unaux.com', 'unaux_24923999', 'q61it9x65c', 'unaux_24923999_musicleaker') or die('Lỗi kết nối');
+
+            // Kết nối csdl debug
             $this->__conn = mysqli_connect('localhost', 'root', '', 'musicleaker_db') or die('Lỗi kết nối');
 
             // Xử lý truy vấn UTF8 để tránh lỗi font
