@@ -56,6 +56,21 @@
 
 ![Test Image 4](resource/gitclone.PNG)
 
+- Bước 3: Bạn truy cập website https://nodejs.org/ tải platform NodeJS về máy
+
+![Test Image 4](resource/nodejs.PNG)
+
+- Bước 4: Sau khi tải về tiến hành cài đặt NodeJS 
+
+- Bước 5: Mở thư mục vừa clone, sau đó truy cập vào thư mục front-end
+
+- Bước 6: Click chuột phải chọn open with visual code nếu bạn chưa cài thì tiến hành cài tại https://code.visualstudio.com
+
+
+![Test Image 5](resource/vscode.PNG)
+
+
+
 
 
 
