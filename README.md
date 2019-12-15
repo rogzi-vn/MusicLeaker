@@ -54,7 +54,7 @@
 
 - Bước 2: Clone vào một folder bất kỳ trong máy tính
 
-![Test Image 3](resource/git-clone.PNG)
+![Test Image 4](resource/gitclone.PNG)
 
 
 
