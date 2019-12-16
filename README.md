@@ -14,7 +14,7 @@
 )](https://www.mysql.com/)
 
 [![visit](https://img.shields.io/badge/VisitWeb-ClickHere!-information
-)](http://musicleaker.unaux.com)
+)](http://musicleaker.unaux.com/authentication)
 
 ♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬♫♭♮♯♫♬
 <h2> ✈ Công dụng, ứng dụng  </h2>
