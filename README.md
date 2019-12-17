@@ -84,7 +84,7 @@
 
 - Bước 8: Bạn nhấn tổ hợp phím Ctrl + ( ~ )  để mở giao diện Terminal 
 
-- Bước 9: Bạn gõ npm i để cài đặt nodeJS vào project 
+- Bước 9: Bạn gõ ```npm i``` để cài đặt nodeJS vào project 
 
 <p align="center">
   <img src="resource/npm%20i.PNG" />
@@ -93,7 +93,7 @@
 
 
 
-- Bước 10: Sau khi cài đặt xong bạn gõ tiếp npm run serve để chạy trang web 
+- Bước 10: Sau khi cài đặt xong bạn gõ tiếp ```npm run serve``` để chạy trang web 
 
 <p align="center">
   <img src="resource/npmrunserve.PNG" />
@@ -108,7 +108,7 @@
 
 - Bước 12: Trang web sẽ hiển thị ngay sau đó
 
-- Bước 13: Nếu bạn có thay đổi gì, hoặc muốn update project chỉ cần gõ npm run build để tiến hành build lại 
+- Bước 13: Nếu bạn có thay đổi gì, hoặc muốn update project chỉ cần gõ ```npm run build``` để tiến hành build lại 
 
 <p align="center">
   <img src="resource/npmrunbuild.PNG" />
