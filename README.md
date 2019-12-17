@@ -48,59 +48,84 @@
 
 <h2>⚙ Các bước cài đặt</h2>
 
-- Bước 1: Đầu tiên bạn copy link Clone Responsitory này 
+- Bước 1: Đầu tiên bạn copy link Clone Responsitory này
+<p align="center">
+  <img src="resource/Capture.PNG" />
+</p>
 
-![Test Image 3](resource/Capture.PNG)
+
 
 - Bước 2: Clone vào một folder bất kỳ trong máy tính
+<p align="center">
+  <img src="resource/gitclone.PNG" />
+</p>
 
-![Test Image 4](resource/gitclone.PNG)
 
 - Bước 3: Bạn truy cập website https://nodejs.org/ tải platform NodeJS về máy
+<p align="center">
+  <img src="resource/nodejs.PNG" />
+</p>
 
-![Test Image 4](resource/nodejs.PNG)
 
 - Bước 4: Sau khi tải về tiến hành cài đặt NodeJS 
 
 - Bước 5: Mở thư mục vừa clone, sau đó truy cập vào thư mục front-end
 
 - Bước 6: Click chuột phải chọn open with visual code nếu bạn chưa cài thì tiến hành cài tại https://code.visualstudio.com
-
-![Test Image 5](resource/vscode.png)
+<p align="center">
+  <img src="resource/vscode.png" />
+</p>
 
 - Bước 7: Vào Giao diện vs code bạn mở thứ tự dist -> src -> view - > authentication.vue
+<p align="center">
+  <img src="resource/views.PNG" />
+</p>
 
-![Test Image 6](resource/views.PNG)
 
 - Bước 8: Bạn nhấn tổ hợp phím Ctrl + ( ~ )  để mở giao diện Terminal 
 
 - Bước 9: Bạn gõ npm i để cài đặt nodeJS vào project 
 
-![Test Image 4](resource/npm%20i.PNG)
+<p align="center">
+  <img src="resource/npm%20i.PNG" />
+</p>
+
+
+
 
 - Bước 10: Sau khi cài đặt xong bạn gõ tiếp npm run serve để chạy trang web 
 
-![Test Image 4](resource/npmrunserve.PNG)
+<p align="center">
+  <img src="resource/npmrunserve.PNG" />
+</p>
 
 - Bước 11: Terminal sẽ xuất hiện đường dẫn localhost bạn nhấn Ctrl + Click chuột để truy cập 
 
-![Test Image 4](resource/localhost.PNG)
+<p align="center">
+  <img src="resource/localhost.PNG" />
+</p>
+
 
 - Bước 12: Trang web sẽ hiển thị ngay sau đó
 
 - Bước 13: Nếu bạn có thay đổi gì, hoặc muốn update project chỉ cần gõ npm run build để tiến hành build lại 
 
-![Test Image 4](resource/npmrunbuild.PNG)
-
+<p align="center">
+  <img src="resource/npmrunbuild.PNG" />
+</p>
 
 <h2>📑 Nội dung của bài toán </h2>
 
 - Chức năng đã làm được:
 <p>- Thiết kế giao diện: Trang chủ, Đăng ký, Đăng nhập, Download</p>
+<p align="center">
+  <img src="resource/index.png" />
+</p>
 
-![Test Image 4](resource/index.png)
+<p align="center">
+  <img src="resource/index2.png" />
+</p>
 
-![Test Image 4](resource/index2.png)
 
 
 <p>- Thao tác</p>
@@ -111,9 +136,14 @@
     <li> Nhấn nút nghe thử tiến hành phát nhạc</li>
     <li> Nhấn nút download tải nhạc về máy</li>
 </ul>
+<p align="center">
+  <img src="resource/search.PNG" />
+</p>
 
-![Test Image 4](resource/search.PNG)
-![Test Image 4](resource/download.PNG)
+<p align="center">
+  <img src="resource/download.PNG" />
+</p>
+
 
 
 
