@@ -48,7 +48,7 @@
 
 <h2>⚙ Các bước cài đặt</h2>
 
-- Bước 1: Đầu tiên bạn copy link Clone Responsitory này
+- Bước 1: Đầu tiên bạn copy link Clone Responsitory này  ☟
 <p align="center">
   <img src="resource/Capture.PNG" />
 </p>
