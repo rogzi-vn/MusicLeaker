@@ -48,6 +48,10 @@
 
 <h2>⚙ Các bước cài đặt</h2>
 
+<h3> Cài đặt cơ sở dữ liệu </h3>
+
+<h3> Chạy thử trang web </h3>
+
 - Bước 1: Đầu tiên bạn copy link Clone Responsitory này  ☟
 <p align="center">
   <img src="resource/Capture.PNG" />
