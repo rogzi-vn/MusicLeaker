@@ -48,24 +48,6 @@
 
 <h2>⚙ Các bước cài đặt</h2>
 
-<h3> Cài đặt cơ sở dữ liệu </h3>
-
-- Bước 1: Bạn vào folder Back-end  -> Api 
-<p align="center">
-  <img src="resource/dbphp.PNG" />
-</p>
-
-- Bước 2: Open file db.php dưới dạng text, thông qua VScode hoặc Notepad ++
-
-
-- Bước 3: Kéo tới dòng này và sửa các thông số host, user, password, database_name theo như của bạn y như hình trên
-<p align="center">
-  <img src="resource/dbconnect.PNG" />
-</p>
-
-- Bước 4: Lưu lại, cơ sở dữ liệu sẽ cập nhật.
-
-
 <h3> Chạy thử trang web </h3>
 
 - Bước 1: Đầu tiên bạn copy link Clone Responsitory này  ☟
@@ -133,6 +115,25 @@
 <p align="center">
   <img src="resource/npmrunbuild.PNG" />
 </p>
+
+
+<h3> Cài đặt cơ sở dữ liệu </h3>
+
+- Bước 1: Bạn vào folder Back-end  -> Api 
+<p align="center">
+  <img src="resource/dbphp.PNG" />
+</p>
+
+- Bước 2: Open file db.php dưới dạng text, thông qua VScode hoặc Notepad ++
+
+
+- Bước 3: Kéo tới dòng này và sửa các thông số host, user, password, database_name theo như của bạn y như hình trên
+<p align="center">
+  <img src="resource/dbconnect.PNG" />
+</p>
+
+- Bước 4: Lưu lại, cơ sở dữ liệu sẽ cập nhật.
+
 
 <h2>📑 Nội dung của bài toán </h2>
 
