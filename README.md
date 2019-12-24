@@ -4,7 +4,7 @@
 )](https://www.php.net/downloads.php)
 [![Platform](https://img.shields.io/badge/platform-VueJS-06915c
 )](https://www.php.net/downloads.php)
-[![Laguage](https://img.shields.io/badge/WEB-HTML-green
+[![Language](https://img.shields.io/badge/WEB-HTML-green
 )](https://www.php.net/downloads.php)
 [![Language](https://img.shields.io/badge/Style-CSS-red
 )](https://developer.mozilla.org/vi/docs/Web/CSS)
@@ -49,6 +49,15 @@
 <h2>⚙ Các bước cài đặt</h2>
 
 <h3> Cài đặt cơ sở dữ liệu </h3>
+
+- Bước 1: Bạn vào folder Back-end  -> Api 
+
+- Bước 2: Open file db.php dưới dạng text, thông qua VScode hoặc Notepad ++
+
+- Bước 3: Kéo tới dòng này và sửa các thông số host, user, password, database_name theo như của bạn y như hình trên
+
+- Bước 4: Lưu lại, cơ sở dữ liệu sẽ cập nhật.
+
 
 <h3> Chạy thử trang web </h3>
 
