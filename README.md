@@ -176,6 +176,9 @@
 - Dán vào link-youtube, tự động convert Youtube thành MP3 và hiển thị link download.
 - Phát triển thành một Chrome Extension tích hợp hỗ trợ người dùng tải nhanh ở các địa chỉ khác nhau.   
 
+
+<h2> Đôi nét về VueJS </h2>
+
 <h2>👦 Tác giả: </h3>
      
 - **Nguyễn Trọng Nghĩa** - Back End Developer (PHP, MySQL) -  [link to GitHub!](https://github.com/futureskyprojects)
